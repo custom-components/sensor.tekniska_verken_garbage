@@ -1,0 +1,11 @@
+{
+    "domain": "tekniska_verken_garbage",
+    "name": "Tekniska Verken Garbage",
+    "version": "1.0.0",
+    "documentation": "https://github.com/custom-components/sensor.tekniska_verken_garbage",
+    "issue_tracker": "https://github.com/custom-components/sensor.tekniska_verken_garbage/issues",
+    "dependencies": [],
+    "codeowners": ["@claha"],
+    "requirements": [],
+    "iot_class": "cloud_polling"
+}
