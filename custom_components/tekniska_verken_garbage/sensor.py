@@ -126,7 +126,7 @@ class TekniskaVerkenGarbageSensor(SensorEntity):
                 ).date()
                 if garbage_day < today:
                     garbage_day = datetime.strptime(
-                        f"{today.year+1}-{month}-{day}", "%Y-%m-%d"
+                        f"{today.year + 1}-{month}-{day}", "%Y-%m-%d"
                     ).date()
                 self._state = garbage_day
                 break
